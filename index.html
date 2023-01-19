@@ -8,7 +8,8 @@
   <!-- bootstrap styles -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <!-- custom styles -->
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body class="container-lg">
@@ -59,9 +60,9 @@
     <div id="carouselExample" class="carousel slide bg-danger p-5 bg-opacity-10 rounded-bottom">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="row">
+          <div class="row g-4">
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-              <div>
+              <div class="text-center text-md-start">
                 <h1>Ride-on R15 V4 with Smile</h1>
                 <p>
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
@@ -75,9 +76,9 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="row">
+          <div class="row g-4">
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-              <div>
+              <div class="text-center text-md-start">
                 <h1>Ride-on R15 V4 with Smile</h1>
                 <p>
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
@@ -91,9 +92,9 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="row">
+          <div class="row g-4">
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-              <div>
+              <div class="text-center text-md-start">
                 <h1>Ride-on R15 V4 with Smile</h1>
                 <p>
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
@@ -120,9 +121,9 @@
 
   <!-- main -->
   <main>
-    <!-- featured bikes -->
-    <section class="mt-5 text-start text-md-center">
-      <h1>Fetured Bikes Of This Year</h1>
+    <!-- featured bikes section -->
+    <section class="mt-5 text-center">
+      <h1>Featured Bikes Of This Year</h1>
       <h4 class="text-danger">Best bikes collection</h4>
       <hr class="w-25 mx-auto border-2 border-danger">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3 g-5 px-5">
@@ -134,6 +135,49 @@
         </div>
         <div class="col">
           <img class="img-fluid" src="./images/feature-bike.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- new arrival section -->
+    <section class="text-center mt-5 bg-info bg-opacity-25 rounded">
+      <h1 class="pt-5">New Arrivals</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 p-5">
+        <div class="col">
+          <div class="card h-100 rounded-4">
+            <img src="./images/bike-1.png" class="card-img-top" alt="...">
+            <div class="card-body p-4">
+              <h5 class="card-title">Ducati Diavel 1260 S 2023</h5>
+              <p class="card-text">The Ducati Diavel is the second cruiser motorcycle from Ducati after the Indiana of 1986-1990. The 2011 model year Diavel debuted in November 2010 at the EICMA motorcycle show in Milan.</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-danger">Purchase</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-4">
+            <img src="./images/bike-2.png" class="card-img-top" alt="...">
+            <div class="card-body p-4">
+              <h5 class="card-title">Ducati XDiavel S 2023</h5>
+              <p class="card-text">The Ducati Diavel is the second cruiser motorcycle from Ducati after the Indiana of 1986-1990. The 2011 model year Diavel debuted in November 2010 at the EICMA motorcycle show in Milan.</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-danger">Purchase</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-4">
+            <img src="./images/bike-3.png" class="card-img-top" alt="...">
+            <div class="card-body p-4">
+              <h5 class="card-title">Ducati XDiavel S 2023</h5>
+              <p class="card-text">The Ducati Diavel is the second cruiser motorcycle from Ducati after the Indiana of 1986-1990. The 2011 model year Diavel debuted in November 2010 at the EICMA motorcycle show in Milan.</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-danger">Purchase</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
