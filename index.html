@@ -15,6 +15,7 @@
 <body class="container-lg">
   <!-- header -->
   <header>
+    <!-- nav -->
     <nav class="navbar navbar-expand-lg bg-danger bg-opacity-10 px-5 pt-3">
       <div class="container-fluid">
         <a class="navbar-brand text-danger fs-4 fw-semibold" href="#">Bikerz Zone</a>
@@ -28,7 +29,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
+              <a class="nav-link" href="#new-arrivals">Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Discount</a>
@@ -36,7 +37,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
-            <button class="ms-3 btn btn-danger px-4 fw-semibold" type="submit">Login</button>
+            <div>
+              <button class="ms-lg-3 btn btn-danger px-4 fw-semibold" type="submit">Login</button>
+            </div>
           </ul>
         </div>
       </div>
@@ -129,9 +132,10 @@
     </section>
 
     <!-- new arrival section -->
-    <section class="text-center mt-5 bg-secondary-subtle rounded">
+    <section class="text-center mt-5 bg-secondary-subtle rounded" id="new-arrivals">
       <h1 class="pt-5"><span class="text-danger">New</span> Arrivals</h1>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 p-5">
+        <!-- card-1 -->
         <div class="col">
           <div class="card h-100 rounded-4">
             <img src="./images/bike-1.png" class="card-img-top" alt="...">
@@ -146,6 +150,7 @@
             </div>
           </div>
         </div>
+        <!-- card-2 -->
         <div class="col">
           <div class="card h-100 rounded-4">
             <img src="./images/bike-2.png" class="card-img-top" alt="...">
@@ -160,6 +165,7 @@
             </div>
           </div>
         </div>
+        <!-- card-3 -->
         <div class="col">
           <div class="card h-100 rounded-4">
             <img src="./images/bike-3.png" class="card-img-top" alt="...">
@@ -181,8 +187,9 @@
     <section class="mt-5 text-center p-5">
       <h1 class="mb-5">Happy <span class="text-danger">Clients</span></h1>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <!-- card-1 -->
         <div class="col">
-          <div class="card h-100 shadow-lg">
+          <div class="card h-100 shadow-lg pt-4">
             <img src="./images/user-1.png" class="card-img-top w-25 mx-auto mt-4" alt="...">
             <div class="card-body p-4">
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -199,8 +206,9 @@
             </div>
           </div>
         </div>
+        <!-- card-2 -->
         <div class="col">
-          <div class="card h-100 shadow-lg">
+          <div class="card h-100 shadow-lg pt-4">
             <img src="./images/user-2.png" class="card-img-top w-25 mx-auto mt-4" alt="...">
             <div class="card-body p-4">
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -217,8 +225,9 @@
             </div>
           </div>
         </div>
+        <!-- card-3 -->
         <div class="col">
-          <div class="card h-100 shadow-lg">
+          <div class="card h-100 shadow-lg pt-4">
             <img src="./images/user-3.png" class="card-img-top w-25 mx-auto mt-4" alt="...">
             <div class="card-body p-4">
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -248,6 +257,7 @@
         <!-- accordion -->
         <div class="col">
           <div class="accordion accordion-flush" id="accordionFlushExample">
+            <!-- faq-1 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -257,9 +267,12 @@
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quisquam facilis odio aliquid, mollitia dolore, quasi, quam suscipit assumenda labore eos. Distinctio voluptates consectetur laboriosam perspiciatis ad eveniet nihil ea.</div>
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quisquam
+                  facilis odio aliquid, mollitia dolore, quasi, quam suscipit assumenda labore eos. Distinctio
+                  voluptates consectetur laboriosam perspiciatis ad eveniet nihil ea.</div>
               </div>
             </div>
+            <!-- faq-2 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -269,9 +282,12 @@
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laborum numquam autem nulla quo repellendus debitis pariatur asperiores quis ex! Doloribus soluta, dolor illum id quasi rem quod culpa illo.</div>
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laborum
+                  numquam autem nulla quo repellendus debitis pariatur asperiores quis ex! Doloribus soluta, dolor illum
+                  id quasi rem quod culpa illo.</div>
               </div>
             </div>
+            <!-- faq-3 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -281,9 +297,12 @@
               </h2>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia praesentium hic asperiores totam laborum adipisci. Mollitia voluptas error fuga consequatur veritatis voluptatum, dolore a earum possimus reiciendis ea? Voluptatem?</div>
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia
+                  praesentium hic asperiores totam laborum adipisci. Mollitia voluptas error fuga consequatur veritatis
+                  voluptatum, dolore a earum possimus reiciendis ea? Voluptatem?</div>
               </div>
             </div>
+            <!-- faq-4 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -293,7 +312,9 @@
               </h2>
               <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit in incidunt, minima consequatur earum molestiae sapiente dolorum numquam. Quae consequuntur, possimus culpa facere in iusto cupiditate expedita rem voluptates eaque.</div>
+                <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit in
+                  incidunt, minima consequatur earum molestiae sapiente dolorum numquam. Quae consequuntur, possimus
+                  culpa facere in iusto cupiditate expedita rem voluptates eaque.</div>
               </div>
             </div>
           </div>
@@ -304,9 +325,37 @@
 
   <!-- footer -->
   <footer>
-
+    <section class="mt-5 bikerz-zone-footer text-white">
+      <div class="row p-5">
+        <!-- links -->
+        <div class="col-12 col-md-9">
+          <div class="mb-3">
+            <a class="text-decoration-none link-light me-4" href="">Download Now</a>
+            <a class="text-decoration-none link-light me-4" href="">License</a>
+          </div>
+          <div>
+            <a class="text-decoration-none link-light me-4" href="">About</a>
+            <a class="text-decoration-none link-light me-4" href="">Features</a>
+            <a class="text-decoration-none link-light me-4" href="">Pricing</a>
+            <a class="text-decoration-none link-light me-4" href="">Career</a>
+            <a class="text-decoration-none link-light me-4" href="">Help</a>
+            <a class="text-decoration-none link-light me-4" href="">Privacy Policy</a>
+          </div>
+        </div>
+        <!-- app link -->
+        <div class="col-12 col-md-3 my-5 my-lg-0">
+          <h4 class="mb-3">Get the App</h4>
+          <img class="bikerz-zone-app-img mb-2 d-block" src="./images/ios.png" alt="">
+          <img class="bikerz-zone-app-img d-block" src="./images/android.png" alt="">
+        </div>
+        <!-- copyright -->
+        <div class="col-12 text-center text-md-start">
+          <p><small>&copy;2023 Bikerz Zone. All rights reserved</small></p>
+        </div>
+      </div>
+    </section>
   </footer>
-
+  
   <!-- bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

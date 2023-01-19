@@ -1,7 +1,20 @@
+/* used in carousel */
 .bikerz-zone-light-red {
     background-color: rgba(255, 0, 0, 0.274);
 }
 
+/* star icon */
 .bikerz-zone-rating-icon {
     width: 18px;
+}
+
+/* footer */
+.bikerz-zone-footer {
+    background: #0B0D17;
+}
+
+/* footer-image */
+
+.bikerz-zone-app-img {
+    width: 140px;
 }
